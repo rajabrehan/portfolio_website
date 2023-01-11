@@ -96,7 +96,22 @@ html{
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom:500px;
+    margin-bottom:30px;
+}
+/* About  */
+#about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Contact  */
+
+#contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .generic-button:hover{
     background-color: plum;
