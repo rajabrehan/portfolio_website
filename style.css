@@ -1,0 +1,106 @@
+/* Entire File Customization */
+html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+    color: darkgreen;
+}
+
+/* margin/padding order  :  top right bottom left  */
+
+#id-title{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.classname{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    padding: left 10px;
+    margin-top: 20px;   
+    margin-bottom: 10px;
+}
+.stimmy-image{
+    justify-content: center;;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.nav-item{
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.nav-link:hover{
+    color: gray;
+}
+
+/* Home  */
+#home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.home-title{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;    
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.home-desc{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 50;
+    margin-bottom: 0px;
+}
+.home-button{
+    display: flex;;
+    justify-content: center;
+    margin-top: 20px;
+}
+.generic-button{
+    color: white;
+    background-color: purple;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom:500px;
+}
+.generic-button:hover{
+    background-color: plum;
+}
+.generic-button:active{
+    background-color: purple;
+}
