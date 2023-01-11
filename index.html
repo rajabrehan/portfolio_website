@@ -6,7 +6,7 @@
    <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title> Jab Site</title>
+      <title  class = "header"> Jab Site</title>
       <link rel="stylesheet" href="style.css".>
     </head>   
     <body>
@@ -29,32 +29,36 @@
                 <div> 
                     <!--Heading Tag (diff sizes)-->
                     <div class = "stimmy-photo">
-                        <img src ="./assets/rajab_portrait.jpg" alt="Photograph of Stimulant addict"
+                        <img src ="./assets/rajab_portrait.jpg" alt="Photograph of Rajab (2021)"
                         width="400" 
                         height="400">
                     </div>
-                    <h1 class="home-title"> RAJAB REHAN</h1>
+                    <h1 class="home-title"> Hi, I'm <span class="auto-type"></span></h1>
                     <h2 class="home-desc">First Year Computer Science Student at TMU !</h2>
                     <h3 class="home-desc">Actively Seeking "Summer 2023" Internships</h2>
                     <div  class="home-button">
                     <!-- Button Tag-->
-                    <button class = "generic-button" onclick="">View More</button>
+                    <button class="generic-button" onclick=`${window.location.href="#About"}`>View More</button>
                     </div>
                 </div>
             </section>
 
             <!-- About me Section-->
             <section id="About">
-                <div>
-                    <img src ="./assets/rajab_drawing.jpg" alt="Photograph of Self">
+                <div class = "rajab-drawing">
+                    <img src ="./assets/rajab_drawing.jpg" alt="Photograph of Self" width="400" 
+                    height="400">
                 </div>
                 <div>
-                    <h2>About Me</h2>
+                    <h2 class="about-title">About Me</h2>
                     <div>
-                        <p>
+                        <p class="about-text">
                             First year Computer Science major at Toronto Metropolitan University.
                         </p>
-                        <p>
+                        <p class="about-text">
+                            Skills: Python, Java, HTML, CSS, JavaScript, Git, GSuite, MS Office
+                        </p>
+                        <p class="about-text">
                             Contact Me for any Inquiries. Website in Progress :)
                         </p>
                     </div>
@@ -64,26 +68,35 @@
             <!-- Contact Section-->
             <section id="Contact">
                 <div>
-                    <h2>Contact Me</h2>
-                    <div>
-                        <a href = "https://www.instagram.com/rajabbbbbbbb/"></a><button>Instagram</button>
-                        <a href = "https://www.linkedin.com/in/rajab-rehan/"></a><button>Linkedin</button>
-                        <a href = "https://www.https://github.com/RajabRehan"></a><button>Github</button>
+                    <h2 class="about-title">Contact Me</h2>
+                    <div class="contact-button">
+                        <a href = "https://www.instagram.com/rajabbbbbbbb/"><button class="generic-button">Instagram</button></a>
+                        <a href = "https://www.linkedin.com/in/rajab-rehan/"><button class="generic-button">Linkedin</button></a>
+                        <a href = "https://www.https://github.com/rajabrehan"><button class="generic-button">Github</button></a>
                     </div>
                     
                 </div>
             </section>
 
             <section id="Resume">
-                <h2>Resume</h2>
-                <div><h3>Link Below</h3></div>
-                <a href = "./assets/Resume (1).pdf"></a><button>View Resume :3</button>
+                <h2 class="about-title">Resume</h2>
+                <div  class="resume-button">
+                    <a href="./assets/Resume.pdf"><button class="generic-button">View Resume :3</button></a>
+                </div>
             </section>
 
         </section> 
     </body>
-   <script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
+    <script>
+        let typed = new Typed('.auto-type', {
+            strings: ["^500Rajab Rehan.^1000", "^500a Pakistani Canadian.^1000", "^500that pretty mf man.^1000"],
+            typeSpeed: 100,
+            backSpeed: 120,
+            loop: true,
+            showCursor: false,
+        });
    </script>
 
    </html>
