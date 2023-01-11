@@ -31,12 +31,12 @@ html{
     margin-top: 20px;   
     margin-bottom: 10px;
 }
-.stimmy-image{
+.stimmy-photo{
     justify-content: center;;
     align-items: center;
     display: flex;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 0px; 
 }
 
 .nav-item{
